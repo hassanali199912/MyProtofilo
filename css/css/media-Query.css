@@ -1,0 +1,87 @@
+/* Media Query */
+
+
+/* Tablet Mode */
+
+@media (max-width:1000px) {
+    .container {
+        width: 100% !important;
+    }
+    .nav ul li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+    .nav h2 {
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+    .nav ul li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    footer ul {
+        display: block;
+    }
+    footer ul li {
+        margin: 10px auto;
+    }
+}
+
+
+/* Tablet2 Mode */
+
+@media (max-width:765px) {
+    .header {
+        height: auto;
+    }
+    .header h1 {
+        padding-top: 20px;
+    }
+    .serves {
+        height: auto;
+    }
+    .serves-content p {
+        width: 100%;
+    }
+    .grid-4,
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+    .nav-content {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav ul {
+        width: 100%;
+    }
+    .nav ul li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Moblie Mobe */
+
+@media (width:500px) {
+    .header-content h1 {
+        font-size: 40px;
+        color: var(--light-color);
+    }
+    .header-content h3 {
+        font-size: 3rem;
+    }
+    .header-content p {
+        font-size: 2rem;
+    }
+}
