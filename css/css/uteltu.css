@@ -1,0 +1,266 @@
+/* Colors */
+
+:root {
+    --primary-color: #eb5424;
+    --light-color: #f8f8f8;
+    --dark-color: #202020;
+}
+
+
+/* Fonts  */
+
+@font-face {
+    font-family: 'Proxima';
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+
+.bold {
+    font-family: 'Proxima Bold';
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    transition: all .5s ease;
+}
+
+
+/* Progress Bar Width*/
+
+.ps-100 {
+    width: 100%;
+}
+
+.ps-90 {
+    width: 90%;
+    animation: prFull90 1s ease;
+}
+
+.ps-80 {
+    width: 80%;
+    animation: prFull80 1s ease;
+}
+
+.ps-70 {
+    width: 70%;
+    animation: prFull70 1s ease;
+}
+
+.ps-60 {
+    width: 60%;
+    animation: prFull60 1s ease;
+}
+
+.ps-50 {
+    width: 50%;
+    animation: prFull50 1s ease;
+}
+
+
+/* BackGround Colors */
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
+}
+
+
+/* Font Size */
+
+.text-center {
+    text-align: center;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+
+/*Margin Top-Bottom*/
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+
+/*Margin All*/
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+
+/*padding Top-Bottom*/
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+.py-4 {
+    padding: 3rem 0;
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+
+
+/*padding All*/
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
